@@ -1,2 +1,5 @@
 #Find K Largest
 
+For this assignment I designed three different algorithms designed to find the largest K number of elements. 
+Then each methods average run time was determined over a series of 10 tests so that they could be compared for 
+efficiency. The three algorithms were linear search, a sorted array, and selection.
