@@ -1,0 +1,113 @@
+@author: Scott Marsden
+
+7a. For this assignment I designed three different algorithms designed to
+find the largest K number of elements. Then each methods average run time was 
+determined over a series of 10 tests so that they could be compared for 
+efficiency.
+
+7b. The only unusual/unexpected thing in this assignment was a stack overflow
+error I kept getting during the timing test on method 3. I determined the
+issue was that the size of the numbers were just too large and this created 
+far too many recursive calls. To fix this I created a range of numbers to 100000.
+I also expected the average run time for method 3 to be lower. I did expect
+some of its run times to be large though.
+
+7c. See Below (functionality tests)
+
+7d. Average Runtime in milliseconds
+Method 1: 14.353625ms
+Method 2: 3.9892861
+Method 3: 32.4515756
+(see below for data)
+
+7e.
+Method 1: T(n) = k*n + c  
+Method 2: T(n) = n Log n + k + c
+Method 3: T(n) = k*n + n + c
+
+Functionality Tests...
+Method 1: 
+991
+978
+975
+972
+957
+957
+954
+945
+924
+918
+Method 2: 
+991
+978
+975
+972
+957
+957
+954
+945
+924
+918
+Method 3: 
+991
+978
+975
+972
+957
+957
+954
+945
+924
+918
+
+
+Timing Tests...
+Time test 1:
+Method 1: 13979068
+Method 2: 3046311
+Method 3: 37435134
+
+Time test 2:
+Method 1: 14862772
+Method 2: 4163753
+Method 3: 23519402
+
+Time test 3:
+Method 1: 12615209
+Method 2: 3125198
+Method 3: 28844208
+
+Time test 4:
+Method 1: 16303428
+Method 2: 4284679
+Method 3: 46446064
+
+Time test 5:
+Method 1: 16074325
+Method 2: 4538717
+Method 3: 27531942
+
+Time test 6:
+Method 1: 23173659
+Method 2: 4550703
+Method 3: 27469427
+
+Time test 7:
+Method 1: 17727955
+Method 2: 3237246
+Method 3: 34879156
+
+Time test 8:
+Method 1: 16007877
+Method 2: 4288920
+Method 3: 26142395
+
+Time test 9:
+Method 1: 11828212
+Method 2: 4121725
+Method 3: 35456310
+
+Time test 10:
+Method 1: 15370835
+Method 2: 4535609
+Method 3: 36797718
